@@ -1,14 +1,28 @@
-.cabecalho{
+
+.cabecalho {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
+    align-content: center;
     align-items: center;
     justify-content: space-around;
-    padding: 2vh 0;
+    padding: -20vh 0;
+
 }
 .itens{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    display: flex;
+    gap: 25px;
+}
+.itens p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0vh 2vw 0vh 2vw;
+    justify-content: space-between;
     display: flex;
     gap: 25px;
 }
 .botao{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 20px;
     border: none;
     outline: none;
@@ -20,11 +34,14 @@
 
 
 .cabecalho img{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 200px;
 }
 
 
 .hero{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: cover;
     width: 100%;
     height: 98vh;
     justify-content: center;
@@ -63,14 +80,14 @@
 .livros{
     height: 100vh;
     padding: 2vw;
-    background-color: rgb(231, 230, 226);
+    background-color:#F8F7F5
 }
 .card{
     background-color: white;
     width: 170px;
     height: 350px;
     border-radius: 15px;
-    padding: 0 2vw 0 2vw;
+    padding: 2vh 2vw 2vh 2vw;
     display: flex;
     justify-content:space-around;
     margin: 0 5vw 0 1vw;
@@ -83,6 +100,7 @@
     font-size: 1rem;
 }
 .ver_mais{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 0 2vw 2vw 2vw;
@@ -90,30 +108,266 @@
 
 
 .carrd{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     display: flex;
     justify-content: space-around;
 }
-.card-livros p{
-    justify-self: center;
-    background-color: #fce1cea8;
-    color: #BE580F;
-    font-weight: 800;
-    padding: 1vh 5vw;
-    border-radius: 10px;
+.card-livros{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    
 }
 .titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     padding: 0 0 1vh;
     font-size: 1.3rem;
 }
 .autor{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
     padding: 0 0 2vw;
 }
 .card-livros img{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     border-radius: 10px;
-    padding: 2vw 0;
+    padding: 2vw 1.7vw;
+    box-shadow: 1px;
+}
+.botaoBorrow{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: #BE580F;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+     background-color: #be580f4d;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 180px;
+    margin: -1vh -1vw;
+    margin-bottom: top; 
+}
+.b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29px;
+}
+.Eventos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F7EDEB;
+    height: 80vh;
+}
+.topo-evento{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}   
+.upcoming-events{
+    padding: 5vh 5vw;
+}
+.botao2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    margin: 5vh 5vw;
+    border: none;
+}
+.view{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #BE580F;
+    background-color: #F8F7F5;
+    border: none    ;
+}
+.cartao{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    }
+.cartoon{
+    background-color: white;
+    width: 360px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+}
+.card01{ 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    
+}
+.register{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    background-color: #ffffff;
+    color: #e0a276;
+    border: none;
+    text-align: start;
+    margin-left: 2vw;
 
 
+}
+.date{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 2vw;
+    color: #BE580F;
+    background-color: #be580f17;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: start;
+}
+.eventin{
+    display: flex;
+    align-items: baseline;
+
+}
+.why{
+    font-family: sans-serif;
+    display: flex;
+    color: #00000082;
+}
+.why1{
+    font-family: sans-serif;
+    display: flex;
+    
+    color: #00000082;
+}
+.why2{
+    font-family: sans-serif;
+    display: flex;
+   
+    color: #00000082;
+}
+.Help{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+     width: 100%;  
+    height: 75vh;
+    gap: 30px;
+    margin-top: 50px;
+}
+.wehelp{
+     background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.even{
+    margin-left: 2vw;
+}
+.icones{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.HIM{
+    text-align: center;
+    justify-content: center;
+}
+.icon{
+  width: 80px;
+  height: 80px;
+  background-color: #BE580F;
+  border-radius: 50%; 
+  margin: 7vh 10vw;
+}
+.fas{
+    justify-content: center;
+    font-size: 35px;
+    margin: 25px;
+    color:white;
+}
+.black{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: black;
+    color: #F7EDEB;
+    height: 40vh;
+}
+.livror{
+    width: 150px;
+    height: 100px;
+}
+.escrita{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0vh 2vw 12vh 20vw;
+}
+.imagemf{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20vw;
+    padding: 2vh 2vw;
+
+}
+    
+.contato{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column
+}
+.insta{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    height: 20px;
+    width: 20px;
+}
+.Calendario{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30px;
+    width: 30px;
+}
+.copyright{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #f7edeb8f;
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+
+}
+.butao{
+    background-color: white;
+    border: none;
+}
+.ins{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    padding:px;
+    height: 5px;
+}
+.cone{
+    flex-direction: column;
+    display: flex;
+    justify-content:first baseline;
+    padding: 25px;
+}
+.icon{
+    gap: 50px;
 }

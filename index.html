@@ -4,25 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliotech</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<section class="cabecalho">
     <div class="cabecalho">
         <img src="assets/logo.png" alt="Logo" class="logo">
         <div class="itens">
-            <p>Books</p>
-            <p>Digital Collection</p>
-            <p>Events</p>
-            <p>Services</p>
-            <p>About Us</p>
+        <input type="button" value="Books" class="butao"></input>
+        <input type="button" value="Digital Collection"class="butao"></input>
+        <input type="button" value="Events"class="butao"></input>
+        <input type="button" value="Services"class="butao"></input>
+        <input type="button" value="About"class="butao"></input>
         </div>
         <input type="button" value="Member Login" class="botao"></input>
     </div>
-</section>
 
 
-<section class="hero">
     <div class="hero">
             <h1>Your gateway to knowledge and discovery</h1>
             <p>Access millions of books, journals, and digital </p>
@@ -30,54 +28,165 @@
 
             <div class="input_container">
                 <input type="text" placeholder="Search the catalog, author or ISBN..." class="pesquisa">
-                <input type="button" value="explore_collection" class="botao">
+                <input type="button" value="Explore Collection" class="botao">
             </div>
     </div>
-</section>
-
-
-<section class="Livros">
     <div class="livros">
         <div class="ver_mais">
             <h2>New Arrivals</h2>
-            <h3>View all... ></h3>
+                    <input type="button" value="View ALL" class="view">
         </div>
         <div class="carrd">
             <div class="card">
                 <div class="card-livros">  
-                    <img src="assets/anel.jpg" alt="livro1">
-                    <h3 class="titulo">Percy Jackson 1</h3>
-                    <h4 class="autor">Autor: Rick Riordan</h4>
-                    <p><input type="button" value="Borrow" class="botaoBorrow"> </p>
+                    <img src="assets/Train.jpg" alt="livro1">
+                    <h5 class="titulo"> Trainspotting</h5>
+                    <h7 class="autor">Autor: Irvine Welsh</h7>
+                    <div class="b">
+                    <input type="button" value="Borrow" class="botaoBorrow">
+                    </div>
                 </div>
             </div>
             <div class="card">
                 <div class="card-livros">  
                     <img src="assets/bichos.jpg" alt="livro1">
-                    <h3 class="titulo">Percy Jackson 2</h3>
-                    <h4 class="autor">Autor: Rick Riordan</h4>
-                    <p>Borrow</p>
+                    <h5 class="titulo">A Revolução Dos Bichos</h5>
+                    <h7 class="autor">Autor: George Orwell</h7>
+                    <input type="button" value="Borrow" class="botaoBorrow">
                 </div>
             </div>
             <div class="card">
                 <div class="card-livros">  
                     <img src="assets/lord.webp" alt="livro1">
-                    <h3 class="titulo">Percy Jackson 3</h3>
-                    <h4 class="autor">Autor: Rick Riordan</h4>
-                    <p>Borrow</p>
+                    <h5 class="titulo">Senhor Dos Aneis</h5>
+                    <h7 class="autor">Autor: J. R. R Tokien  </h7>
+                <input type="button" value="Borrow" class="botaoBorrow">
+
                 </div>
             </div>
             <div class="card">
-                <div class="card-livros">  
+                <div class="card-livros"> 
                     <img src="assets/maus.jpg" alt="livro1">
-                    <h3 class="titulo">Percy Jackson 4</h3>
-                    <h4 class="autor">Autor: Rick Riordan</h4>
-                    <p>Borrow</p>
+                    <h5 class="titulo">Maus</h5>
+                    <h7 class="autor">Autor: Art Spiegelman</h7>
+                    <div class="b">
+                    <input type="button" value="Borrow" class="botaoBorrow">
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+<!--segunda parte-->
+
+    <div class=" Eventos">
+        <div class="topo-evento">
+            <div class="upcoming-events">
+                <h5> Stay Connection </h5>
+                <h2>Upcoming Events</h2>
+            </div>
+            <input type="button" value="See Full calendar" class="botao2">
+        </div>
+        <div class="cartao">
+            <div class="cartoon">
+                <div class="card01">  
+                    <div class="date">
+                    <h2>17</h2><p>JAN</p></div>
+                    <div class="even">
+                    <h3 class="eventin">Book`s Day</h3></br>
+                    <h4 class="why1">The day when all book and their reeders having fun together!</h4>
+                    </div> 
+                    <input type="button" value="Register →" class="register">
+                </div>
+            </div>
+            <div class="cartoon">
+                <div class="card01"> 
+                    <div class="date">
+                    <h2>18</h2><p>OUT</p></div>
+                    <div class="even">
+                    <h3 class="eventin">Childrens Book Clube</h3></br> 
+                    <h4 class="why2">For parents to get rid of their children.</h4>
+                    </div>    
+                    <input type="button" value="Register →" class="register">
+                </div>
+            </div>
+            <div class="cartoon">
+                <div class="card01">  
+                    <div class="date">
+                    <h2>30</h2><p>NOV</p></div>
+                    <div class="even">
+                    <h3 class="eventin">Books`s Party</h3></br>
+                    <h4 class="why">The grand book`s party for all the city.</h4>
+                    </div>
+                    <input type="button" value="Register →" class="register">
                 </div>
             </div>
         </div>
-    </div>
-</section>
-   
+    </div>    
+        <div class="Help">
+            <div class="HIM">
+                <h2 class="wehelp">How We Can Help</h2></br>
+                <p>Bibliotech provides modern tools and support to empower your learning journey</p>
+            </div>
+            <div class="icones">
+                <div class="cone">
+                    <img src="" alt=""></img>
+                    <div class="icon"><i class="fas fa-desktop"></i></div>
+                    <h2 class="wehelp">Digital Rentals</h2>
+                    <p>Ebooks, audiobooks, and streaming media directly</br> to your devices via the Libby app.</p>
+                </div>
+                <div>
+                    <img src="" alt=""></img>
+                    <div class="icon"><i class="fas fa-door-open"></i></div>
+                    <h2 class="wehelp">Study Rooms</h2>
+                    <p>Books private rooms for collaborative projects or</br> direcly to your devices via the Libby app</p>
+                </div>
+                <div>
+                    <img src="" alt=""></img>
+                      <div class="icon"><i class="fas fa-magnifying-glass"></i></div>
+                    <h2 class="wehelp">Research</h2>
+                    <p>One-on-one sessions with our librarians </br> to navigate academic database and archives</p>
+                </div>
+            </div>
+            </div>
+        </div>
+                <div class="black">
+                    <div class="imagemf">
+                        <img class="livror" src="assets/livror.jpeg" alt="livror"></img>
+                        <h6> digital cyber library, in which<br> you can read digital<br> books through a completely digital<br> system, where the books are made only through<br> a graphical interface with cyber pages.</h6>    
+                    </div>
+                    <div class="imagemf">
+                        <h3>Contact Us</h3>
+                            <div class="ins"><img class="insta" src="assets/whatsapp.png" alt="livror"></img>
+                            <h6 class="contato"> Tel (11) 9935646969
+                        </h6></div>
+                            <div class="ins "><img class="insta" src="assets/o-email.png" alt="livror"></img>
+                            <h6>bibliotech@gmail.com
+                        </h6></div>
+                            <div class="ins"><img class="insta" src="assets/instagram.png" alt="livror"></img>
+                            <h6>instagram: @tech_biblio<br>
+                        </h6></div>  
+                    </div>
+                    <div class="imagemf">       
+                        <h3>
+                        </h3>
+                        <h3>Hours of Operation</h3>                        
+                        <h4>Mon - Fri<br>Saturday - Sunday</h4>
+                         
+                    </div> 
+                    <div class="imagemf">   
+                        <h3>Quick Links</h3>
+                        <h6>Review Books<br>Donate<br>Volunteering<br>Privacy Policy<br></h6>
+                   </div>    
+                    </div>
+                    <div class="copyright">
+                            @Bibliotech Public Library all rights reserveds built for the community                       </div>    
+                    </div>
+                
+                
+                </div>
+                
+    
 </body>
 </html>
+   
